@@ -1,0 +1,8 @@
+beanstalkd:
+    host: "localhost"
+    port: 11300
+handlers:
+    - "./handlers/currency_exchange_rate.js"
+watch:
+    - 'xieren58'
+ignoreDefault: true
