@@ -1,10 +1,11 @@
 'use strict';
 
 var fivebeans = require('fivebeans');
+var config = require('./config').beanstalkd;
 
-var host = 'localhost';
-var port = 11300;
-var tube = 'xieren58';
+var host = config.host;
+var port = config.port;
+var tube = config.tube';
 
 
 var job1 = {
